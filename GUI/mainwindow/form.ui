@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>774</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Blackz WiFi Brut&lt;3F0rc3 || v 0.1a  | blackzspace.de</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../OneDrive/Bilder/@blackzspace.de - Developemnt Rescources/@BlackzSpace - ICONS/bS - ICONS/favicon.ico</normaloff>../../../../OneDrive/Bilder/@blackzspace.de - Developemnt Rescources/@BlackzSpace - ICONS/bS - ICONS/favicon.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>981</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_main">
+     <attribute name="title">
+      <string>Main</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_main_login_register">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>451</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Login / Register</string>
+      </property>
+      <widget class="QLineEdit" name="username_Input">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>291</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="password_Input">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>150</y>
+         <width>291</width>
+         <height>24</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_agb">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>250</y>
+         <width>111</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Accept AGB</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="register_Button">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>280</y>
+         <width>80</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: grey;
+color: red;</string>
+       </property>
+       <property name="text">
+        <string>Register</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="login_Button">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>190</y>
+         <width>80</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: grey;
+color: lime;</string>
+       </property>
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_remember_me">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>190</y>
+         <width>131</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Remember me</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_username">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Username:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_password">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>130</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_settings">
+     <attribute name="title">
+      <string>Settings</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QTextBrowser" name="consoleBrowser">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>530</y>
+      <width>971</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(120, 120, 120);
+color: rgb(0, 255, 51);</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>720</y>
+      <width>961</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="command_Input">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>700</y>
+      <width>971</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(66, 66, 66);
+color: rgb(0, 255, 51);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
